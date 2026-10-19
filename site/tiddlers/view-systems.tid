@@ -33,7 +33,7 @@ nav-label: Systems
 <p class="row-text">Model-agnostic integration of LLMs within TiddlyWiki knowledge bases, working from structured metadata and retrieval-based approaches.</p>
 </div>
 </div>
-<details class="more"><summary>What the README lists, and the guardrails</summary><ul><li>Multi-model support</li><li>PDF analysis and processing</li><li>Image generation and handling</li><li>Voice interaction (speech-to-text and text-to-speech)</li><li>Smart content editing with macros</li><li>Context-aware wiki operations</li><li>Conversation history management</li><li>Intelligent search and navigation</li></ul><p>Guardrails: the agent cannot delete tiddlers directly, and its edits can be undone. The README still recommends keeping backups.</p></details>
+<details class="more"><summary>What the README lists, and the guardrails</summary><ul><li>Chat with OpenAI, Anthropic, Gemini, or a local model (Ollama, LM Studio, or any OpenAI-compatible endpoint)</li><li>Wiki tools the model can call: list titles; search content, tags, and fields; read content and fields; create, modify, and rename tiddlers; open and close tiddlers; export; read and revise a system reference; undo actions; scrape a web page</li><li>Vector search, with tiddlers embedded and indexed in the browser</li><li>PDF analysis and image generation</li><li>Voice interaction (speech-to-text and text-to-speech)</li><li>Conversation history management</li><li>Widgets for chat, instructions, notebooks, coding, journals, reference work, and mind maps, with toggles for each feature's buttons</li></ul><p>Guardrails: the agent has no tool for deleting tiddlers, and its edits can be undone. The README still recommends keeping backups.</p></details>
 <p class="links">
 <a class="btn" href="https://github.com/well-noted/WikiSage" target="_blank" rel="noopener">github.com/well-noted/WikiSage</a>
 <a class="btn btn-ghost" href="https://well-noted.github.io/WikiSage/" target="_blank" rel="noopener">Live demo</a>
@@ -85,6 +85,7 @@ nav-label: Systems
 <div class="minis">
 <div class="mini"><strong>NoteStreams</strong><p>A TiddlyWiki second brain on MultiWikiServer, with a structured tiddler taxonomy and an agent interface through MCP.</p></div>
 <div class="mini"><strong>Substrate &amp; Milieu</strong><p>Tools that let AI agents work directly on tiddlers, so a wiki can be the shared workspace.</p></div>
+<div class="mini"><strong>MASTOC-LLM</strong><p>Research in progress: LLM agents replace the rule-based decisions in an agent-based commons model, through a Python bridge that works with Anthropic, OpenAI, Gemini, and local models. A 2,140-run baseline sweep is labeled preliminary. <a href="https://github.com/well-noted/MASTOC-LLM" target="_blank" rel="noopener">Repository</a></p></div>
 <div class="mini"><strong>scientific-voice skill</strong><p>A skill file that encodes an academic writing style so AI agents can reuse it.</p></div>
 </div>
 </section>
