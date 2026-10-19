@@ -1,0 +1,114 @@
+title: View/institutional
+nav-label: Institutional
+
+<header class="page-head wrap">
+<span class="bignum" aria-hidden="true">02</span>
+<p class="eyebrow">ASU College of Global Futures</p>
+<h1 class="h-xl">Institutional Communication <span class="soft">&amp; Applied AI</span></h1>
+<p class="lead">College of Global Futures AI Analysis &amp; Presentation Pipeline</p>
+<p class="register">Academic register</p>
+</header>
+
+<section class="wrap">
+<div class="rows">
+<div class="row">
+<p class="row-label">Context</p>
+<p class="row-text">Developed an applied data analysis and multimedia presentation pipeline for the directors of the College of Global Futures at ASU for an institutional panel on artificial intelligence.</p>
+</div>
+<div class="row">
+<p class="row-label">Execution</p>
+<p class="row-text">Combined local and cloud AI models to animate illustrated figures of the panelists (<a href="#institutional/puppetstudio">PuppetStudio</a>), analyze the AI CGF panel transcript, and deliver high-impact insights for university stakeholders, introducing them to the LLM Wiki pattern, a knowledge base kept by a person and AI agents together, built here in TiddlyWiki.</p>
+</div>
+<div class="row">
+<p class="row-label">Impact</p>
+<p class="row-text">Cross-functional communication skills, stakeholder engagement, and practical execution of AI tools for professional academic governance.</p>
+</div>
+</div>
+</section>
+
+<section class="wrap section-gap screen-only" aria-labelledby="flow-h">
+<p class="eyebrow" id="flow-h">The pipeline</p>
+<ol class="flow">
+<li><strong>Recording</strong><span>The panel recording, used with permission from every director.</span></li>
+<li><strong>Transcript</strong><span>Extracted from the recording, with cleanup kept in a separate pass.</span></li>
+<li><strong>Analysis</strong><span>Who answered each question, open items, themes, a stance map, and claims checked.</span></li>
+<li><strong>Animation</strong><span>PuppetStudio turns the audio and illustrated figures into captioned clips.</span></li>
+<li><strong>Delivery</strong><span>One TiddlyWiki file for the college's directors and organizers.</span></li>
+</ol>
+</section>
+
+<section class="wrap section-gap" aria-labelledby="delivered-h">
+<p class="eyebrow" id="delivered-h">What the directors received</p>
+<div class="delivered">
+<div class="d-card"><span class="d-num">9</span><strong>Analysis sections</strong><span>An interactive notebook, imported into the wiki as a tiddler.</span></div>
+<div class="d-card"><span class="d-num">12</span><strong>Animated clips</strong><span>Illustrated, captioned answers from the recording.</span></div>
+<div class="d-card"><span class="d-num">7</span><strong>People pages</strong><span>The panelists, organizer, and moderator, with roles.</span></div>
+<div class="d-card"><span class="d-num">1</span><strong>Explainer</strong><span>The LLM Wiki pattern (Karpathy, April 2026) and how it maps to TiddlyWiki.</span></div>
+</div>
+</section>
+
+<section class="wrap section-gap practice" aria-labelledby="practice-h">
+<p class="eyebrow" id="practice-h">The rubric in practice</p>
+<div class="rows">
+<div class="row">
+<p class="row-label">Stance scores</p>
+<p class="row-text">Scored on a five-level rubric and labeled in the wiki as not yet validated.</p>
+</div>
+<div class="row">
+<p class="row-label">Theme coding</p>
+<p class="row-text">Keyword-based, and labeled that way: most sentences matched none of the twelve themes.</p>
+</div>
+<div class="row">
+<p class="row-label">Claims</p>
+<p class="row-text">Checked against web research dated October 1, 2026, with unfinished checks marked pending.</p>
+</div>
+<div class="row">
+<p class="row-label">Attribution</p>
+<p class="row-text">Statements are attributed to individuals, because panelists said their remarks were personal views. Names and roles were checked against ASU's directory.</p>
+</div>
+</div>
+<p class="fine">The wiki was delivered to the college's directors and organizers, with their permission. Nothing from the panel is reproduced on this site.</p>
+</section>
+
+<article class="project flip wrap" id="puppetstudio" style="margin-top:3rem">
+<div class="project-art">
+<div class="logo-tile"><$image source="Logo/PuppetStudio" alt="PuppetStudio logo"/></div>
+<p class="tile-cap">Local authoring tool</p>
+<p class="chips"><span class="chip">Public alpha</span><span class="chip">Windows</span><span class="chip">MIT license</span></p>
+</div>
+<div class="project-body">
+<p class="eyebrow">Built for this project</p>
+<h2 class="h-lg">PuppetStudio</h2>
+<p class="subhead">Illustrated, captioned puppet productions from recorded conversations</p>
+<div class="rows">
+<div class="row screen-only">
+<p class="row-label">How it works</p>
+<p class="row-text">Import a recording, review suggested clips, assign each speaker an illustrated figure, compose scenes, and batch-render the results.</p>
+</div>
+<div class="row">
+<p class="row-label">Models</p>
+<p class="row-text">Local Whisper transcription and SadTalker lip sync on an NVIDIA GPU, with optional hosted transcription, chat-completion, and image APIs.</p>
+</div>
+<div class="row screen-only">
+<p class="row-label">Output</p>
+<p class="row-text">Captioned speaker clips with names, titles, contextual intro slides, and timed subtitles.</p>
+</div>
+</div>
+<p class="links">
+<a class="btn" href="https://github.com/well-noted/PuppetStudio" target="_blank" rel="noopener">github.com/well-noted/PuppetStudio</a>
+</p>
+</div>
+</article>
+
+<div class="wrap shots">
+<figure class="shot">
+<div class="shot-bar"><i></i><i></i><i></i><span>Clip review</span></div>
+<img src="https://raw.githubusercontent.com/well-noted/PuppetStudio/main/docs/media/clip-review.png" alt="PuppetStudio clip review screen"/>
+<figcaption>Reviewing proposed clips. The app's screenshots use synthetic artwork.</figcaption>
+</figure>
+<figure class="shot">
+<div class="shot-bar"><i></i><i></i><i></i><span>A finished production</span></div>
+<img src="https://raw.githubusercontent.com/well-noted/PuppetStudio/main/docs/media/finished-production.gif" alt="Animated example of a finished PuppetStudio production"/>
+<figcaption>A finished production, also made with synthetic artwork.</figcaption>
+</figure>
+</div>

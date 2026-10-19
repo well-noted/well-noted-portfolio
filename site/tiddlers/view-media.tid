@@ -1,0 +1,52 @@
+title: View/media
+nav-label: Media
+
+<header class="page-head wrap">
+<span class="bignum" aria-hidden="true">03</span>
+<p class="eyebrow">Generative Audio-Visual Workflows</p>
+<h1 class="h-xl">Multimedia <span class="soft">&amp; Content Generation Pipelines</span></h1>
+<p class="lead">A series of experimental AI music videos and multimedia pieces exploring narrative design, pacing, and multi-modal alignment.</p>
+<p class="register">Playful register, same quality gates</p>
+</header>
+
+<section class="wrap videos" aria-label="Videos">
+<figure class="video-card" style="margin:0">
+<div class="video" data-yt="b6q_87toFmY" data-title="Doomsday Schemes - AI DoomPop">
+<a class="facade" href="https://www.youtube.com/watch?v=b6q_87toFmY" target="_blank" rel="noopener" aria-label="Play Doomsday Schemes - AI DoomPop">
+<span class="facade-play" aria-hidden="true"></span>
+<span class="facade-title">Doomsday Schemes - AI DoomPop</span>
+<span class="facade-hint"></span>
+<span class="facade-url">youtube.com/watch?v=b6q_87toFmY</span>
+</a>
+</div>
+<h3>Doomsday Schemes - AI DoomPop</h3>
+<p>Music video. <a href="https://www.youtube.com/watch?v=b6q_87toFmY" target="_blank" rel="noopener">Watch on YouTube</a></p>
+</figure>
+<figure class="video-card" style="margin:0">
+<div class="video" data-yt="aTkYtfNC7lQ" data-title="“Google Murray Bookchin”">
+<a class="facade" href="https://www.youtube.com/watch?v=aTkYtfNC7lQ" target="_blank" rel="noopener" aria-label="Play “Google Murray Bookchin”">
+<span class="facade-play" aria-hidden="true"></span>
+<span class="facade-title">“Google Murray Bookchin”</span>
+<span class="facade-hint"></span>
+<span class="facade-url">youtube.com/watch?v=aTkYtfNC7lQ</span>
+</a>
+</div>
+<h3>“Google Murray Bookchin”</h3>
+<p>Lyric video. <a href="https://www.youtube.com/watch?v=aTkYtfNC7lQ" target="_blank" rel="noopener">Watch on YouTube</a></p>
+</figure>
+</section>
+
+<section class="wrap trio" aria-label="How these are made">
+<article>
+<h3>Project</h3>
+<p>A series of experimental AI music videos and multimedia pieces exploring narrative design, pacing, and multi-modal alignment.</p>
+</article>
+<article>
+<h3>Workflow</h3>
+<p>Integrated generative audio and visual models (<a href="https://www.youtube.com/@well-noted" target="_blank" rel="noopener">youtube.com/@well-noted</a>), focusing on prompt precision, frame-to-frame consistency, and rigorous quality gating.</p>
+</article>
+<article>
+<h3>Standards</h3>
+<p>Demonstrates an eye for creative direction and a strict review process to ensure outputs meet a polished professional standard.</p>
+</article>
+</section>

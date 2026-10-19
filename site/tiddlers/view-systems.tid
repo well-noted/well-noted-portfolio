@@ -1,0 +1,90 @@
+title: View/systems
+nav-label: Systems
+
+<header class="page-head wrap">
+<span class="bignum" aria-hidden="true">01</span>
+<p class="eyebrow">Featured</p>
+<h1 class="h-xl">Systems Architecture <span class="soft">&amp; Tooling</span></h1>
+<p class="lead">Two tools, each written up the same way: the friction that prompted it, the response, and what came of it.</p>
+<p class="register">Technical register</p>
+</header>
+
+<article class="project wrap" id="wikisage">
+<div class="project-art">
+<div class="logo-tile"><$image source="Logo/WikiSage" alt="WikiSage logo"/></div>
+<p class="tile-cap">Open-source TiddlyWiki plugin</p>
+<p class="chips"><span class="chip">MIT license</span><span class="chip">Model-agnostic</span></p>
+</div>
+<div class="project-body">
+<p class="eyebrow">Project 01</p>
+<h2 class="h-lg">WikiSage</h2>
+<p class="subhead">Context-Aware AI Knowledge Integration</p>
+<blockquote class="pull">
+<p class="label">Friction</p>
+<p class="pull-text">Traditional knowledge management systems lack dynamic, context-aware AI synthesis that respects private data structures and modular user workflows.</p>
+</blockquote>
+<div class="rows">
+<div class="row">
+<p class="row-label">Response</p>
+<p class="row-text">Built WikiSage, an open-source companion plugin supporting multi-model architectures (Claude, OpenAI, Gemini, Ollama) to process rich document types, manage history, and execute smart operations inside user wikis.</p>
+</div>
+<div class="row">
+<p class="row-label">Innovation</p>
+<p class="row-text">Model-agnostic integration of LLMs within TiddlyWiki knowledge bases, working from structured metadata and retrieval-based approaches.</p>
+</div>
+</div>
+<details class="more"><summary>What the README lists, and the guardrails</summary><ul><li>Multi-model support</li><li>PDF analysis and processing</li><li>Image generation and handling</li><li>Voice interaction (speech-to-text and text-to-speech)</li><li>Smart content editing with macros</li><li>Context-aware wiki operations</li><li>Conversation history management</li><li>Intelligent search and navigation</li></ul><p>Guardrails: the agent cannot delete tiddlers directly, and its edits can be undone. The README still recommends keeping backups.</p></details>
+<p class="links">
+<a class="btn" href="https://github.com/well-noted/WikiSage" target="_blank" rel="noopener">github.com/well-noted/WikiSage</a>
+<a class="btn btn-ghost" href="https://well-noted.github.io/WikiSage/" target="_blank" rel="noopener">Live demo</a>
+</p>
+</div>
+</article>
+
+<article class="project flip wrap" id="logos">
+<div class="project-art">
+<div class="logo-tile"><$image source="Logo/Logos" alt="Logos logo"/></div>
+<p class="tile-cap">Desktop app, written in Rust</p>
+<p class="chips"><span class="chip">v0.0.0</span><span class="chip">Under active development</span><span class="chip">Tested on Windows so far</span></p>
+</div>
+<div class="project-body">
+<p class="eyebrow">Project 02</p>
+<h2 class="h-lg">Logos</h2>
+<p class="subhead">An Agent-Based Modeling Environment</p>
+<blockquote class="pull">
+<p class="label">Friction</p>
+<p class="pull-text">Legacy modeling platforms like NetLogo have a steep syntax learning curve and an isolated execution model that limits dynamic rule generation.</p>
+</blockquote>
+<div class="rows">
+<div class="row">
+<p class="row-label">Response</p>
+<p class="row-text">Engineered Logos, an environment that reads and writes NetLogo's .nlogox format without loss and runs models on the real NetLogo engine, so a teaching model can grow into a research study without being rewritten, for exploratory socio-ecological simulations.<!-- Restore once the AI features are pushed: adding native AI-driven logic and modular agent behaviors. --></p>
+</div>
+<div class="row">
+<p class="row-label">Testing &amp; Iteration</p>
+<p class="row-text">Built through a rigorous development lifecycle featuring continuous validation, extensive testing of agent interaction networks, and proactive resolution of syntax edge cases.</p>
+</div>
+</div>
+<details class="more"><summary>What the README lists</summary><ul><li>Model screen with Interface, Info, and Code tabs, using NetLogo's own view rendering</li><li>Code editor with diagnostics, completion, and rename from NetLogo's compiler through a language server</li><li>Interface editing with a single undo history</li><li>Agent inspection, watches, and a Command Center</li><li>BehaviorSpace experiments run in parallel, with results as NetLogo-compatible tables or Parquet</li><li>Search and replace across code, Info, and widgets</li><li>Project files that list data, Python requirements, and secret names, with secrets kept in the OS credential store</li><li>Autosave every 30 seconds and crash restore</li><li>A command-line tool to run and check models without the app</li></ul><p>Requires NetLogo 7.0.4, installed separately. The README states that Logos is usable but under active development.</p></details>
+<p class="links">
+<a class="btn" href="https://github.com/well-noted/Logos" target="_blank" rel="noopener">github.com/well-noted/Logos</a>
+</p>
+</div>
+</article>
+
+<div class="wrap">
+<figure class="shot">
+<div class="shot-bar"><i></i><i></i><i></i><span>Logos</span></div>
+<img src="https://raw.githubusercontent.com/well-noted/Logos/main/docs/images/logos-app-aa4.png" alt="Screenshot of the Logos desktop app running a model"/>
+<figcaption>The Logos app running AA4-Combined, a modified Artificial Anasazi model.</figcaption>
+</figure>
+</div>
+
+<section class="workshop wrap" aria-labelledby="workshop-h">
+<h2 id="workshop-h">Also in the workshop</h2>
+<div class="minis">
+<div class="mini"><strong>NoteStreams</strong><p>A TiddlyWiki second brain on MultiWikiServer, with a structured tiddler taxonomy and an agent interface through MCP.</p></div>
+<div class="mini"><strong>Substrate &amp; Milieu</strong><p>Tools that let AI agents work directly on tiddlers, so a wiki can be the shared workspace.</p></div>
+<div class="mini"><strong>scientific-voice skill</strong><p>A skill file that encodes an academic writing style so AI agents can reuse it.</p></div>
+</div>
+</section>

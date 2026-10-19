@@ -1,0 +1,126 @@
+title: View/home
+nav-label: Overview
+
+<section class="hero wrap">
+<div class="hero-copy">
+<p class="eyebrow">Portfolio &amp; Systems Architecture</p>
+<h1 class="display">Thomas E. Tuoti</h1>
+<p class="hero-role">AI Systems Strategist <span class="amp">&amp;</span> Complex Systems Researcher</p>
+<p class="lead">Bridging content strategy, generative AI architecture, and institutional storytelling.</p>
+<p class="cta">
+<a class="btn" href="#systems">See the systems</a>
+<a class="btn btn-ghost" href="https://github.com/well-noted" target="_blank" rel="noopener">GitHub @well-noted</a>
+<a class="btn btn-ghost" href="https://www.youtube.com/@well-noted" target="_blank" rel="noopener">YouTube @well-noted</a>
+</p>
+</div>
+<div class="hero-art">
+<svg class="graph" viewBox="0 0 520 490" role="group" aria-label="Map of this portfolio. Each node opens a section.">
+<g class="g-edges" aria-hidden="true">
+<line x1="260" y1="245" x2="118" y2="128"/>
+<line x1="260" y1="245" x2="404" y2="112"/>
+<line x1="260" y1="245" x2="452" y2="300"/>
+<line x1="260" y1="245" x2="290" y2="416"/>
+<line x1="260" y1="245" x2="82" y2="320"/>
+<line x1="118" y1="128" x2="44" y2="56"/>
+<line x1="118" y1="128" x2="204" y2="46"/>
+<line x1="404" y1="112" x2="470" y2="48"/>
+<line class="faint" x1="118" y1="128" x2="404" y2="112"/>
+<line class="faint" x1="404" y1="112" x2="452" y2="300"/>
+<line class="faint" x1="452" y1="300" x2="290" y2="416"/>
+<line class="faint" x1="290" y1="416" x2="82" y2="320"/>
+<line class="faint" x1="82" y1="320" x2="118" y2="128"/>
+<line x1="452" y1="300" x2="500" y2="372"/>
+<line x1="452" y1="300" x2="504" y2="236"/>
+</g>
+<g aria-hidden="true">
+<circle class="g-dot" cx="500" cy="372" r="5"/>
+<circle class="g-dot" cx="504" cy="236" r="5"/>
+<circle class="g-dot" cx="180" cy="300" r="4"/>
+<circle class="g-dot" cx="350" cy="180" r="4"/>
+</g>
+<g class="g-core" aria-hidden="true">
+<circle cx="260" cy="245" r="38"/>
+<text x="260" y="253" text-anchor="middle">TT</text>
+</g>
+<a class="g-node g-main" href="#systems" aria-label="Systems Architecture and Tooling">
+<circle cx="118" cy="128" r="30"/>
+<text class="g-num" x="118" y="133" text-anchor="middle">01</text>
+<text class="g-label" x="118" y="180" text-anchor="middle">Systems</text>
+</a>
+<a class="g-node g-main" href="#institutional" aria-label="Institutional Communication and Applied AI">
+<circle cx="404" cy="112" r="30"/>
+<text class="g-num" x="404" y="117" text-anchor="middle">02</text>
+<text class="g-label" x="404" y="164" text-anchor="middle">Institutional</text>
+</a>
+<a class="g-node g-main" href="#media" aria-label="Multimedia and Content Generation">
+<circle cx="452" cy="300" r="30"/>
+<text class="g-num" x="452" y="305" text-anchor="middle">03</text>
+<text class="g-label" x="452" y="352" text-anchor="middle">Media</text>
+</a>
+<a class="g-node g-main" href="#governance" aria-label="Editorial and Systems Governance Rubric">
+<circle cx="290" cy="416" r="30"/>
+<text class="g-num" x="290" y="421" text-anchor="middle">04</text>
+<text class="g-label" x="290" y="468" text-anchor="middle">Governance</text>
+</a>
+<a class="g-node g-main" href="#about" aria-label="About this site">
+<circle cx="82" cy="320" r="30"/>
+<text class="g-num" x="82" y="325" text-anchor="middle">05</text>
+<text class="g-label" x="82" y="372" text-anchor="middle">About</text>
+</a>
+<a class="g-node g-sub" href="#systems/wikisage" aria-label="WikiSage">
+<circle cx="44" cy="56" r="11"/>
+<text class="g-sublabel" x="62" y="61">WikiSage</text>
+</a>
+<a class="g-node g-sub" href="#systems/logos" aria-label="Logos">
+<circle cx="204" cy="46" r="11"/>
+<text class="g-sublabel" x="222" y="51">Logos</text>
+</a>
+<a class="g-node g-sub" href="#institutional/puppetstudio" aria-label="PuppetStudio">
+<circle cx="470" cy="48" r="11"/>
+<text class="g-sublabel" x="470" y="22" text-anchor="middle">PuppetStudio</text>
+</a>
+</svg>
+</div>
+</section>
+
+<section class="doors wrap" aria-labelledby="doors-h">
+<h2 id="doors-h" class="sr-only">Sections of this portfolio</h2>
+<a class="door door-a" href="#systems">
+<span class="door-num">01</span>
+<span class="door-title">Systems Architecture &amp; Tooling</span>
+<span class="door-text">WikiSage, context-aware AI inside a TiddlyWiki, and Logos, an agent-based modeling environment.</span>
+<span class="door-go">Open the systems</span>
+</a>
+<a class="door door-b" href="#institutional">
+<span class="door-num">02</span>
+<span class="door-title">Institutional Communication</span>
+<span class="door-text">An analysis and presentation pipeline for an AI panel at ASU's College of Global Futures.</span>
+<span class="door-go">See the pipeline</span>
+</a>
+<a class="door door-c" href="#media">
+<span class="door-num">03</span>
+<span class="door-title">Multimedia &amp; Content Generation</span>
+<span class="door-text">Experimental AI music videos, with a strict review process behind them.</span>
+<span class="door-go">Watch the videos</span>
+</a>
+<a class="door door-d" href="#governance">
+<span class="door-num">04</span>
+<span class="door-title">Editorial &amp; Systems Governance Rubric</span>
+<span class="door-text">How I evaluate and hold the line on AI-generated content.</span>
+<span class="door-go">Read the rubric</span>
+</a>
+</section>
+
+<section class="quote-band">
+<div class="wrap">
+<blockquote>
+<p>When an output fails quality control, diagnose the breakdown and fix the system upstream rather than editing symptoms downstream.</p>
+</blockquote>
+<p class="attrib">From the governance rubric. <a href="#governance">Read all four standards</a></p>
+</div>
+</section>
+
+<section class="site-note wrap">
+<p><strong>You are reading a wiki.</strong>This site is a TiddlyWiki, the kind of knowledge base I build tools for. Each section is a view inside one tiddler, and the map above is its table of contents. It was built with Claude, working from my own draft.</p>
+<a class="btn btn-ghost" href="#about">How this site was made</a>
+</section>

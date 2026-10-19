@@ -1,0 +1,47 @@
+title: View/governance
+nav-label: Governance
+
+<header class="page-head wrap">
+<span class="bignum" aria-hidden="true">04</span>
+<p class="eyebrow">How I work</p>
+<h1 class="h-xl">Editorial <span class="soft">&amp; Systems Governance Rubric</span></h1>
+<p class="lead">How I evaluate and hold the line on AI-generated content.</p>
+</header>
+
+<section class="wrap rubric" aria-label="The four standards">
+<article class="rubric-card">
+<span class="n" aria-hidden="true">1</span>
+<h3>Factual &amp; Contextual Rigor</h3>
+<p>Cross-checking outputs against source constraints and knowledge bases to eliminate hallucinations or hollow boilerplate.</p>
+</article>
+<article class="rubric-card">
+<span class="n" aria-hidden="true">2</span>
+<h3>Structural Integrity</h3>
+<p>Ensuring headings, taxonomy, and metadata adhere strictly to style standards and accessibility (WCAG) guidelines.</p>
+</article>
+<article class="rubric-card">
+<span class="n" aria-hidden="true">3</span>
+<h3>Institutional Tone</h3>
+<p>Verifying that voice, pacing, and messaging align with brand guidelines before deployment.</p>
+</article>
+<article class="rubric-card">
+<span class="n" aria-hidden="true">4</span>
+<h3>Upstream Iteration</h3>
+<p>When an output fails quality control, diagnosing whether the breakdown occurred in prompt instructions, context tokens, or model limitations, and fixing the system upstream rather than editing symptoms downstream.</p>
+</article>
+</section>
+
+<section class="wrap upstream-wrap" aria-label="Where a failure can originate">
+<p class="upstream-title">Standard 4 as a diagram</p>
+<div class="upstream" role="img" aria-label="An output fails quality control. Diagnose whether the cause is prompt instructions, context tokens, or model limitations. Then fix the system upstream.">
+<div class="u-box u-fail">Output fails quality control</div>
+<div class="u-arrow" aria-hidden="true">&rarr;</div>
+<div class="u-col">
+<div class="u-box">Prompt instructions?</div>
+<div class="u-box">Context tokens?</div>
+<div class="u-box">Model limitations?</div>
+</div>
+<div class="u-arrow" aria-hidden="true">&rarr;</div>
+<div class="u-box u-fix">Fix the system upstream</div>
+</div>
+</section>

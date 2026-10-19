@@ -1,0 +1,57 @@
+title: $:/core/ui/PageTemplate
+
+\import [all[shadows+tiddlers]tag[$:/tags/Macro]!has[draft.of]]
+\whitespace trim
+<$let view={{{ [[$:/state/folio/view]get[text]] :else[[home]] }}} viewTitle={{{ [<view>addprefix[View/]is[tiddler]] :else[[View/home]] }}}>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-head">
+<div class="head-in">
+<a class="brand" href="#home" aria-label="Thomas E. Tuoti, overview">
+{{Logo/Site}}
+<span class="brand-name">Thomas E. Tuoti</span>
+</a>
+<nav class="site-nav" aria-label="Sections">
+<$list filter="[list[$:/folio/Views]]" variable="id">
+<a class={{{ [<id>match<view>then[nav-link is-active]else[nav-link]] }}} href={{{ [<id>addprefix[#]] }}} aria-current={{{ [<id>match<view>then[page]else[false]] }}}>
+<$text text={{{ [[View/]addsuffix<id>get[nav-label]] }}}/>
+</a>
+</$list>
+</nav>
+</div>
+</header>
+
+<main id="main" tabindex="-1" data-view=<<view>> class={{{ [<view>addprefix[view view-]] }}}>
+<$transclude tiddler=<<viewTitle>> mode="block"/>
+</main>
+
+<nav class="pager" aria-label="Previous and next section">
+<div class="wrap pager-in">
+<$list filter="[list[$:/folio/Views]before<view>]" variable="p">
+<a class="pager-link pager-prev" href={{{ [<p>addprefix[#]] }}}>
+<span class="pager-dir">Previous</span>
+<span class="pager-title"><$text text={{{ [[View/]addsuffix<p>get[nav-label]] }}}/></span>
+</a>
+</$list>
+<$list filter="[list[$:/folio/Views]after<view>]" variable="n">
+<a class="pager-link pager-next" href={{{ [<n>addprefix[#]] }}}>
+<span class="pager-dir">Next</span>
+<span class="pager-title"><$text text={{{ [[View/]addsuffix<n>get[nav-label]] }}}/></span>
+</a>
+</$list>
+</div>
+</nav>
+
+<footer class="site-foot">
+<div class="wrap foot-in">
+<p>© 2026 Thomas E. Tuoti. Built as a TiddlyWiki.</p>
+<p>
+<a href="#print">Print or PDF</a>
+<a href="https://github.com/well-noted" target="_blank" rel="noopener">GitHub @well-noted</a>
+<a href="https://www.youtube.com/@well-noted" target="_blank" rel="noopener">YouTube @well-noted</a>
+</p>
+</div>
+</footer>
+
+</$let>

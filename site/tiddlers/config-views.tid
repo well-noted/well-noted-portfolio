@@ -1,0 +1,4 @@
+title: $:/folio/Views
+list: home systems institutional media governance about
+
+The order of the views. The header navigation and the previous/next links at the bottom of each page are both generated from this list. Each entry "x" is shown by the tiddler "View/x".

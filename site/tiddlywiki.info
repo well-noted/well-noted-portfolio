@@ -1,0 +1,11 @@
+{
+	"description": "Portfolio and systems architecture of Thomas E. Tuoti",
+	"plugins": [],
+	"themes": [],
+	"languages": [],
+	"build": {
+		"index": [
+			"--render", "$:/core/save/all", "index.html", "text/plain"
+		]
+	}
+}

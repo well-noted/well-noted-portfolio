@@ -1,0 +1,13 @@
+{
+  "name": "well-noted-portfolio",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Portfolio of Thomas E. Tuoti, built as a single-file TiddlyWiki",
+  "scripts": {
+    "build": "tiddlywiki site --output docs --build index",
+    "dev": "tiddlywiki site --listen port=8080"
+  },
+  "devDependencies": {
+    "tiddlywiki": "5.3.8"
+  }
+}

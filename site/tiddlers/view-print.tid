@@ -1,0 +1,13 @@
+title: View/print
+nav-label: Print version
+
+<div class="print-bar wrap">
+<p>Every section on one page, in a print-friendly layout.</p>
+<$button message="tm-print" class="btn">Print or save as PDF</$button>
+</div>
+<$list filter="[list[$:/folio/Views]!match[about]]" variable="id">
+<section class={{{ [<id>addprefix[print-section print-]] }}}>
+<$transclude tiddler={{{ [[View/]addsuffix<id>] }}} mode="block"/>
+</section>
+</$list>
+<p class="print-end">Code and media: github.com/well-noted and youtube.com/@well-noted. This portfolio is itself a TiddlyWiki.</p>

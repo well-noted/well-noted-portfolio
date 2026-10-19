@@ -1,0 +1,45 @@
+title: View/about
+nav-label: About
+
+<header class="page-head wrap">
+<span class="bignum" aria-hidden="true">05</span>
+<p class="eyebrow">About this site</p>
+<h1 class="h-xl">A portfolio <span class="soft">that is also a wiki</span></h1>
+<p class="lead">It is one file, and it is an example of the knowledge bases it describes.</p>
+</header>
+
+<section class="wrap about-grid">
+<div>
+<h2>What it is</h2>
+<p>This portfolio is a TiddlyWiki, the kind of knowledge base I build tools for. The whole site is one HTML file. Each section is a view inside a single tiddler: the header, the map on the overview page, and the previous and next links at the bottom of every page all change that view by setting one state tiddler. Because the links are ordinary anchors, the back button and shared URLs work.</p>
+<h2>How it was made</h2>
+<p>I built it with Claude, Anthropic's AI model, working from the portfolio draft I wrote. I set the structure and kept my own wording. Claude wrote the layout, styling, and navigation code, and I review the result before publishing. That is the same loop the <a href="#governance">governance rubric</a> describes: generate, check against source, and fix upstream when something fails.</p>
+<h2>Where to look next</h2>
+<p>The code behind each project is on <a href="https://github.com/well-noted" target="_blank" rel="noopener">GitHub</a>, and the media work is on <a href="https://www.youtube.com/@well-noted" target="_blank" rel="noopener">YouTube</a>, both under @well-noted.</p>
+</div>
+<aside class="aside-card" aria-label="Colophon">
+<h2>Colophon</h2>
+<ul>
+<li>Built with TiddlyWiki 5.3.8 and no other libraries.</li>
+<li>Light and dark themes follow your system setting.</li>
+<li>Keyboard navigation, visible focus, and reduced-motion support.</li>
+<li>Videos load from youtube-nocookie.com. Project screenshots load from their GitHub repositories.</li>
+<li>No analytics and no tracking scripts.</li>
+</ul>
+</aside>
+</section>
+
+<section class="wrap how" aria-label="How the navigation works">
+<article>
+<h3>One tiddler, many views</h3>
+<p>A single state tiddler holds the current view. The page template transcludes whichever view tiddler it names.</p>
+</article>
+<article>
+<h3>Links are plain anchors</h3>
+<p>Each link points at an address such as #systems or #systems/logos, so every view and project has a URL.</p>
+</article>
+<article>
+<h3>Order comes from a list</h3>
+<p>The header and the previous and next links are generated from one list tiddler. Reordering the list reorders the site.</p>
+</article>
+</section>
