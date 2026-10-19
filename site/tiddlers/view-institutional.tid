@@ -48,7 +48,8 @@ nav-label: Institutional
 </section>
 
 <section class="wrap section-gap practice" aria-labelledby="practice-h">
-<p class="eyebrow" id="practice-h">The rubric in practice</p>
+<p class="eyebrow" id="practice-h">How the analysis was checked</p>
+<p class="practice-intro">These are the standards from the <a href="#governance">Governance</a> page, applied to this project.</p>
 <div class="rows">
 <div class="row">
 <p class="row-label">Stance scores</p>
